@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito";
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 1px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+body {
+  color: #314D85;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+#college-name {
+  max-width: 320px;
+}
+.container {
+  background-color: #FDE4E8;
+  border-radius: 10px;
+  margin: 25px auto;
+  padding: 36px;
+  width: 90%;
+  max-width: 320px;
+  height: 376px;
+}
+.size {
+  border-radius: 100%;
+}
+.logo, .size {
+  max-width: 100px;
+}
+form {
+  margin: 20px auto 0;
+}
+input {
+  width: 100%;
+  margin: 12px auto;
+  padding: 12px 16px;
+  border: none;
+  font-size: 0.8rem;
+}
+[type=submit] {
+  background-color: #CA4458;
+  color: #FFFFFF;
+  margin: 6px auto;
+}
+[type=submit]:hover {
+  background-color: #E59EAA;
+  color: #FFFFFF;
+}
+[type=checkbox] {
+  width: auto;
+  margin: 0;
+  border: none;
+}
+footer {
+  background-color: #CA4458;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 31px;
+  width: 100%;
+}
+.size {
+  width: 100px;
+  height: 100px;
+}
+.ps {
+  text-align: center;
+  margin-top: 12px;
+}
+a {
+  text-decoration: none;
+  color: #CA4458;
+}
+@media screen and (min-width:320px) and (min-height:638px) {
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-55.9%);
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}

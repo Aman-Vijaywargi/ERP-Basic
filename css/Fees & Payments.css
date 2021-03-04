@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito";
+    font-size: 100%;
+    color: #314d85;
+    line-height: 1.5;
+  }
+  a {
+    text-decoration: none;
+    color: #ca4458;
+  }
+  a:hover {
+    color: #e59eaa;
+  }
+  a.active-1 {
+    color: #f5c8d0;
+  }
+  h1, h2, h3 {
+    font-family: "Raleway";
+    text-decoration: none;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  h4, h5, h6, pre {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "Nunito";
+    margin: 6px 0;
+    padding: 6px 20px;
+    text-align: justify;
+  }
+  h1 {
+    font-size: 72px;
+    text-align: center;
+    margin: 200px auto 0px;
+  }
+
+  /* Header */
+  
+  .header {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 30px 80px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 90%;
+  }
+  .profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  .photo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 12px;
+    border-radius: 100%;
+  }
+  .nav-pad {
+    float: right;
+    vertical-align: middle;
+    margin-top: 16px;
+  }
+  .space,
+  a.active-1 {
+    padding: 0px 12px;
+    border-right: 1.5px solid #ca4458;
+  }
+  .Highlights{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: fit-content;
+      margin: 0 auto;
+      background-color: #f1f2fd;
+      border-radius: 12px;
+  }
+  .Highlights h3{
+      text-align: left;
+      margin: 0;
+      padding: 16px;
+  }
+  .Process{
+    text-align: center;
+    margin: 32px;
+  }
+  .Process a{
+    border: 2px solid #CA4458;
+    padding: 12px;
+    margin: 0 12px;
+    text-align: center;
+  }
+  .Process a:hover{
+    background-color: #CA4458;
+    color: #FFFFFF;
+  }
+  .Details{
+    display: grid;
+    grid-template-columns: 12% 30% 8% 24% 26%;
+    margin: 24px auto;
+    width: 46%;
+    background-color: #f1f2fd;
+    border-radius: 12px;
+  }
+  .Details h3{
+    margin: 0px;
+  }
+  footer{
+    position: relative;
+    background-color: #CA4458;
+    text-align: center;
+    color: #FBFAFA;
+    width: 100%;
+    padding: 2.25rem 0; /* 36px */
+    margin-top: 100px;
+  }

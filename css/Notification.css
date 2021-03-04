@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito";
+    font-size: 100%;
+    color: #314d85;
+    line-height: 1.5;
+  }
+  a {
+    text-decoration: none;
+    color: #ca4458;
+  }
+  a:hover {
+    color: #e59eaa;
+  }
+  a.active-1 {
+    color: #f5c8d0;
+  }
+  h1, h2, h3 {
+    font-family: "Raleway";
+    text-decoration: none;
+    font-weight: normal;
+    margin: 200px 20px 100px;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  h4, h5, h6, pre {
+    text-decoration: none;
+    font-weight: normal;
+    margin: 6px 0;
+    padding: 6px 20px;
+    text-align: justify;
+  }
+  h1 {
+    font-size: 72px;
+    text-align: center;
+    margin: 200px auto 100px;
+  }
+
+  /* Header */
+  
+  .header {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 30px 80px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 90%;
+  }
+  .profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  .photo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 12px;
+    border-radius: 100%;
+  }
+  .nav-pad {
+    float: right;
+    vertical-align: middle;
+    margin-top: 16px;
+  }
+  .space,
+  a.active-1 {
+    padding: 0px 12px;
+    border-right: 1.5px solid #ca4458;
+  }
+  .Notification{
+      margin: 20px 200px;
+  }
+  .news{
+    margin: 16px 0;
+  }
+  .Noti{
+      background-color: #DAFBFF;
+      padding: 8px 0;
+      width: 100%;
+      border-radius: 10px;
+  }
+  .Noti h4{
+    margin-bottom: 12px;
+  }
+  span{
+    margin-left: 50px;
+  }
+  footer{
+    position: relative;
+    background-color: #CA4458;
+    text-align: center;
+    color: #FBFAFA;
+    width: 100%;
+    padding: 2.25rem 0; /* 36px */
+    margin-top: 100px;
+  }

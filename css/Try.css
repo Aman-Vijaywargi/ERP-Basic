@@ -1,0 +1,11 @@
+.Row{
+  display: inline-block;
+  width: 100%;
+}
+.column{
+  display: inline-block;
+  width: 8.8%;
+}
+.end{
+  width: fit-content;
+}

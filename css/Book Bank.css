@@ -1,0 +1,308 @@
+* {
+  font-family: "Nunito";
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-weight: normal;
+  outline: none;
+  cursor: default;
+  user-select: none;
+  box-sizing: border-box;
+}
+body {
+  color: #314D85;
+}
+a {
+  text-decoration: none;
+  color: #ca4458;
+  font-size: 14px;
+}
+a:hover {
+  color: #e59eaa;
+}
+a.active {
+  color: #F5C8D0;
+}
+h1, h2, h3, h5, h6 {
+  text-decoration: none;
+  font-weight: normal;
+}
+h2, h5, h6 {
+  margin: 6px 0;
+}
+h1, h2, h3 {
+  font-family: "Raleway";
+}
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 13px;
+}
+h5 {
+  font-size: 11px;
+}
+h6 {
+  font-size: 8px;
+  display: inline;
+}
+
+/* Header */
+
+.slider {
+  position: fixed;
+  display: none;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: #00000086;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+header {
+  background-color: #ffffff;
+  padding: 16px 12px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.nav-pad {
+  display: none;
+}
+.photo {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+button {
+  width: 32px;
+  margin-right: 4px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.burger {
+  width: 100%;
+  border-top: 3px solid #314d85;
+  margin: 4px 0;
+  display: block;
+}
+
+/* Section 1 */
+
+.Library {
+  text-align: center;
+  margin: 200px auto 0px;
+}
+.Result {
+  text-align: center;
+  margin: 36px auto;
+}
+.Books {
+  margin: 12px 32px;
+  padding: 12px;
+  display: block;
+  border: 2px solid #ca4458;
+  color: #ca4458;
+}
+.Books:hover {
+  background-color: #ca4458;
+  color: #ffffff;
+  cursor: pointer;
+}
+.active-2, .active-2:hover {
+  background-color: #00e626;
+  border: 2px solid #00e626;
+  color: #ffffff;
+  cursor: default;
+}
+
+/* Section 2 */
+
+.list {
+  margin: 0 32px;
+}
+.Books-list {
+  background-color: #d8fbff;
+  margin: 24px auto;
+  padding: 24px;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+}
+.Books-list img {
+  width: 100%;
+  margin: auto;
+  display: block;
+  max-width: 150px;
+}
+.order {
+  margin: 16px 0;
+  width: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  position: relative;
+  background-color: #ca4458;
+  text-align: center;
+  color: #fbfafa;
+  width: 100%;
+  padding: 2.25rem 0; /* 36px */
+  margin-top: 100px;
+}
+
+/* Media Queries */
+
+@media (min-width: 320px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 21px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  h6 {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 360px) {
+  .Books {
+    display: inline;
+    margin: 12px;
+  }
+}
+@media (min-width: 556px) {
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 58px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  .Books-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Books-list img {
+    margin: 0;
+  }
+  .order {
+    margin: 0 16px;
+    width: 75%;
+  }
+}
+@media (min-width: 800px) {
+  .nav-pad {
+    display: block;
+  }
+  .space, a.active, .about {
+    padding: 0px 12px;
+  }
+  .space, a.active {
+    border-right: 1.5px solid #ca4458;
+  }
+  button {
+    display: none;
+  }
+}
+@media (min-width: 940px) {
+  header {
+    padding: 30px 80px;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1560px) {
+  a {
+    font-size: 22px;
+  }
+  h1 {
+    font-size: 110px;
+  }
+  h2 {
+    font-size: 46px;
+  }
+  h3 {
+    font-size: 55px;
+  }
+  h5 {
+    font-size: 30px;
+  }
+  h6 {
+    font-size: 24px;
+  }
+  .space, a.active, .about {
+    padding: 0px 24px;
+  }
+  .Books-list {
+    max-width: 1200px;
+  }
+}
+@media (min-height: 2140px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media (min-width: 2560px) and (min-height: 1440px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
