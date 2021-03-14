@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Avenir LT;
-  src: url(Font/Avenir_LT_35_Light.ttf);
+  font-family: "Avenir LT";
+  src: url(/Font/Avenir_LT_35_Light.ttf);
 }
 * {
   box-sizing: border-box;
-  font-family: Avenir LT;
+  font-family: "Avenir LT";
   margin: 0;
   padding: 0;
 }
