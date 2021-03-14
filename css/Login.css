@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Avenir LT";
-  src: url(../font/Avenir_LT_35_Light.ttf);
+  src: url(/css/font/Avenir_LT_35_Light.ttf);
 }
 * {
   box-sizing: border-box;
